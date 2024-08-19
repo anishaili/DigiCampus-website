@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DigiCampus</title>
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="icon"
+      href="./image/digicampus-favicon-color.png"
+      type="image/x-icon"
+    />
+    
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <img
+          src="./image/digicampus-high-resolution-logo-transparent.png"
+          alt="logo"
+          height="50"
+          width="200"
+        />
+      </div>
+      <div class="list">
+        <ul>
+          <li><a href="./index.html"> Home</a></li>
+          <li><a href="./index.html#sections"> Sections</a></li>
+          <li><a href="./courses.html"> Courses</a></li>
+          <li><a href="./index.html#team"> Team</a></li>
+          <li><a href="./index.html#contact"> Contact</a></li>
+        </ul>
+      </div>
+      <div class="btn">
+        <button onclick="window.location.href='./login.html'">Sign In</button>
+      </div>
+    </div>
+
+    <div class="home7">
+      <div class="login-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+          <div class="form-group">
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" required />
+          </div>
+          <div class="form-group">
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required />
+          </div>
+          <button type="submit" id="btn3">Login</button>
+          <p class="signup-link">
+            Don't have an account ? <a href="/signup">Sign up here </a>
+          </p>
+        </form>
+      </div>
+      <div class="img5">
+        <img src="./image/concept-illustration-newsletter.png" alt="login" />
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <img
+            src="./image/digicampus-high-resolution-logo-transparent.png"
+            alt="DigiCampus Logo"
+            class="footer-logo"
+          />
+          <p>
+            Unlock Your Potential with DigiCampus<br />
+            Learn from Experts. Master Practical Skills.<br />
+            Transform Your Life with DigiCampus.
+          </p>
+          <br />
+          <p id="salute">
+            Mister Anis Haili wishes you the best regards and success.
+          </p>
+        </div>
+        <div class="footer-section">
+          <h4>Company</h4>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="./index.html#team">Our Team</a></li>
+            <li><a href="./index.html#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="./index.html#features">Features</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h4>Links</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 DigiCampus . All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
